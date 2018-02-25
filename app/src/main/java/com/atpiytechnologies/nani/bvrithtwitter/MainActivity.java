@@ -128,7 +128,7 @@ public class MainActivity extends Activity {
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
             dialog.dismiss();
-            if(flag == true){
+            if(flag == false){
                 detailview();
             }
         }
